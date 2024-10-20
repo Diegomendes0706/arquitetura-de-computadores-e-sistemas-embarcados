@@ -1,0 +1,56 @@
+# Compile of pratica.sv failed with 1 errors.
+# Compile of pratica.sv failed with 1 errors.
+# Compile of pratica.sv failed with 1 errors.
+# Compile of pratica.sv was successful.
+# Compile of tb1.sv was successful.
+vsim -gui work.testbench1
+# vsim -gui work.testbench1 
+# Start time: 17:34:38 on Oct 20,2024
+# Loading sv_std.std
+# Loading work.testbench1
+# Loading work.pratica
+add wave -position insertpoint endmodule
+# ** UI-Msg: (vish-4014) No objects found matching 'endmodule'.
+add wave -position insertpoint sim:/testbench1/dut/*
+run -all
+# Compile of pratica.sv was successful.
+# Compile of tb1.sv was successful.
+# Compile of tb2.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench2
+# End time: 17:43:48 on Oct 20,2024, Elapsed time: 0:09:10
+# Errors: 0, Warnings: 16
+# vsim -gui work.testbench2 
+# Start time: 17:43:48 on Oct 20,2024
+# Loading sv_std.std
+# Loading work.testbench2
+# Loading work.pratica
+add wave -position insertpoint sim:/testbench2/dut/*
+run -all
+# 000 success.
+# 001 success.
+# 010 success.
+# 011 success.
+# 100 success.
+# 101 success.
+# 110 success.
+# 111 success.
+# Compile of pratica.sv was successful.
+# Compile of tb1.sv was successful.
+# Compile of tb2.sv was successful.
+# Compile of tb3.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.testbench3
+# End time: 17:51:46 on Oct 20,2024, Elapsed time: 0:07:58
+# Errors: 0, Warnings: 4
+# vsim -gui work.testbench3 
+# Start time: 17:51:46 on Oct 20,2024
+# Loading sv_std.std
+# Loading work.testbench3
+# Loading work.pratica
+add wave -position insertpoint sim:/testbench3/dut/*
+run -all
+#          8 tests completed with          0 errors
+# ** Note: $stop    : C:/arq.comp/atividade4/tb3.sv(54)
+#    Time: 105 ps  Iteration: 1  Instance: /testbench3
+# Break in Module testbench3 at C:/arq.comp/atividade4/tb3.sv line 54
