@@ -54,3 +54,5 @@ run -all
 # ** Note: $stop    : C:/arq.comp/atividade4/tb3.sv(54)
 #    Time: 105 ps  Iteration: 1  Instance: /testbench3
 # Break in Module testbench3 at C:/arq.comp/atividade4/tb3.sv line 54
+# End time: 18:06:13 on Oct 20,2024, Elapsed time: 0:14:27
+# Errors: 0, Warnings: 1
